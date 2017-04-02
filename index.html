@@ -13,23 +13,23 @@
                 text-align: center;
                 color: white;
             }
-            i:nth-child(1){
+            .youtube i{
                 color: red;
                 font-size:30px;
             }
-            i:nth-child-type(2){
+            .twitter i{
                 color: blue;
                 font-size:30px;
             }
-            .header i:hover:nth-child(1){
+            .youtube i:hover{
                 font-size:40px;
                 width: 50px;
                 height: 50px;
                 border-radius: 50%;
                 background: transparent;
-                border: 4px solid red;
+                border: 4px solid;
             }
-            .header i:hover:nth-child(2){
+            .twitter i:hover{
                 font-size:40px;
                 width: 50px;
                 height: 50px;
@@ -42,13 +42,14 @@
     <body>
         <div class="header">
 	        <h1>Scam Fans</h1>
-	            <a href="http://codr.io/6onbk15/preview">
-	                <i class="fa fa-youtube-play" aria-hidden="true"></i>
-	            </a>
-	            <p>dsdsdsd</p>
-	            <a href="http://www.youtube.com">
-	                <i class="fa fa-twitter" aria-hidden="true"></i>
-	            </a>
+	        <p>We are Scam Fans and we prank call Indian Tech Support for your entertainment.</p>
+	        <a href="http://codr.io/6onbk15/preview">
+	            <div class="youtube"><i class="fa fa-youtube-play" aria-hidden="true"></i></div>
+	        </a>
+            <br />
+            <a href="http://www.youtube.com">
+	           <div class="twitter"><i class="fa fa-twitter" aria-hidden="true"></i></div>
+            </a>
         </div>
     </body>
 </html>
